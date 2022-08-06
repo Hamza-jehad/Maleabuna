@@ -1,0 +1,220 @@
+*{
+    -webkit-box-sizing: border-box;
+    font-family: 'Lucida Sans';
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    padding-right:20px ;
+    padding-left:20px ;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #30f030ea;
+    direction: rtl;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Start Header */
+.header{
+    margin: 30px 0 20px 0;
+    display: flex;
+    justify-content: space-between;   
+}
+.header h1{
+    color: #ffffff;
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -5px;
+}
+.header ul li{
+    padding: 10px;
+    transition: 0.3s;
+}
+.header ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Segoe UI';
+}
+.header ul li a:hover{
+    color: black;
+}
+.header ul li:hover{
+    transform: scale(1.1);
+}
+/* End Header */
+
+/* Start Landing */
+.landing{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#75f575ea, #56fa56);
+    padding: 25px;    
+}
+.landing .one .lan{
+    margin-right: 20px;
+    width: 450px;
+    position: relative;
+}
+.landing .one h3{
+    font-size: 33px;
+    font-family: system-ui;
+    color: black;
+    font-family: 'Amiri', serif;
+    border: 4px dashed white;
+    padding: 12px;
+    text-align: center;
+    border-radius: 20px;
+}
+.landing .two{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing .two .mobile{
+    width: 300px;
+    position: relative;
+    top: -38px;
+}
+.landing .two .qr{
+    width: 130px;
+    position: absolute;
+    margin-top: 228px;
+}   
+/* End Landing */
+
+/* Start About */
+.about{
+    margin: 10px;
+}
+.about h1{
+    text-align: center;
+    margin: 60px;
+    color: white;
+    font-size: 36px;
+    font-family: cursive;
+    letter-spacing: 2.2px;
+    position: relative;
+}
+.about h1::after{
+    content: '';
+    position: absolute;
+    width: 112px;
+    height: 4px;
+    bottom: -15px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50px);
+}
+.about h1::before{
+    content: '';
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    bottom: -20px;
+    left: 50%;
+    background-color: #272525;
+    z-index: 2;
+}
+.about .card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    justify-content: center;
+}
+.about .card img{
+    width: 200px;
+}
+.about .card .box{
+    padding: 25px 10px 10px 10px;
+    background: linear-gradient(#bafaba, #7cf87cea);
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+}
+.about .card .box h2{
+    margin-top: 19px;
+    font-size: 23px;
+    margin-bottom: 12px;
+    color: #222121;
+}
+.about .card .box p{
+    font-size: 12px;
+    color: #696565;
+    font-weight: bold;
+}
+.thumb{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    display: block;
+    margin: -37px;
+    cursor: pointer;
+    transition: 0.3s;
+    bottom: 140px;
+    left: 150px;
+}
+.thumb li{
+    display: list-item;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.thumb li img{
+    max-width: 70px;
+}
+/* End About */
+
+/* Start Footer */
+.footer{
+    margin: 50px auto;
+    background-color: #56fa56;
+    padding: 20px;
+    position: relative;
+}
+.footer .about h1{
+    margin-top: 5px;
+}
+.footer .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.footer .links a{
+    transition: 0.3s;
+}
+.footer .links a:hover{
+    transform: scale(1.1);
+}
+.footer .links a img{
+    width: 100px;
+}
+/* .footer .links .facebook:hover{
+    background-color: #1877f2;
+}
+.footer .links .instagram:hover{
+    background-color: #833AB4;
+}
+.footer .links .youtube:hover{
+    background-color: #ff0000;
+}
+.footer .links .tiktok:hover{
+    background-color: #ff0050;
+} */
+
+/* End Footer */
